@@ -3,8 +3,8 @@ import telegram
 import openai
 from telegram.ext import Updater, MessageHandler, Filters
 
-telegram_token = os.environ.get('TELEGRAM_TOKEN')
-openai_api_key = os.environ.get('OPENAI_API_KEY')
+telegram_token = os.environ.get('5881385260:AAGbncp6c5f-RlbpzGe6F9GPCys9G4NTdPc')
+openai_api_key = os.environ.get('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')
 
 bot = telegram.Bot(token=telegram_token)
 updater = Updater(token=telegram_token, use_context=True)
